@@ -1,10 +1,6 @@
 package gr.akarafyllidis.debrid.client.service;
 
-import gr.akarafyllidis.debrid.client.model.ActiveCount;
-import gr.akarafyllidis.debrid.client.model.AddedTorrent;
-import gr.akarafyllidis.debrid.client.model.AvailableHost;
-import gr.akarafyllidis.debrid.client.model.TorrentDetails;
-import gr.akarafyllidis.debrid.client.model.TorrentSummary;
+import gr.akarafyllidis.debrid.client.model.*;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;

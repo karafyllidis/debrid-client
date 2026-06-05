@@ -1,15 +1,7 @@
 package gr.akarafyllidis.debrid.client.shell;
 
-import com.github.freva.asciitable.AsciiTable;
-import com.github.freva.asciitable.Column;
-import com.github.freva.asciitable.ColumnData;
-import com.github.freva.asciitable.HorizontalAlign;
-import com.github.freva.asciitable.OverflowBehaviour;
-import gr.akarafyllidis.debrid.client.model.ActiveCount;
-import gr.akarafyllidis.debrid.client.model.AddedTorrent;
-import gr.akarafyllidis.debrid.client.model.AvailableHost;
-import gr.akarafyllidis.debrid.client.model.TorrentDetails;
-import gr.akarafyllidis.debrid.client.model.TorrentSummary;
+import com.github.freva.asciitable.*;
+import gr.akarafyllidis.debrid.client.model.*;
 import gr.akarafyllidis.debrid.client.service.TorrentService;
 import org.springframework.shell.core.command.annotation.Command;
 import org.springframework.shell.core.command.annotation.CommandGroup;

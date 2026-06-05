@@ -1,7 +1,5 @@
 package gr.akarafyllidis.debrid.client.model;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
 import java.util.List;
 
 /**
